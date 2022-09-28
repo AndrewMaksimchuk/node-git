@@ -7,9 +7,7 @@
 
 
 ### Usage:  
-`npm run start`  
 `npm run start "Fix: Crash telephone field" dev`  
-`npm run test`  
 `npm run test "Fix: Crash telephone field" dev`  
 `./node-git.js`  
 `./node-git.js "Fix: Crash telephone field" dev`  
@@ -22,8 +20,14 @@
 `start` - Run commands with default behavior or with arguments.   
 `executeble` - Make file "node-git.js" exacutable.   
 `test` - Test default behavior or with arguments.   
+`install` - Install package.   
+`remove` - Remove package.   
 
 
 ### Notes
 Default branch: "main"  
 Default commit message: "Init project"
+
+First argument of command is commit message (in double qoutes),  
+second argument is branch name.  
+
