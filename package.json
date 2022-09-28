@@ -7,7 +7,9 @@
   "scripts": {
     "start": "node ./node-git.js $1 $2",
     "executeble": "chmod +x ./node-git.js",
-    "test": "NODE_GIT_TEST=true node ./node-git.js $1 $2"
+    "test": "NODE_GIT_TEST=true node ./node-git.js $1 $2",
+    "install": "node ./install.js",
+    "remove": "node ./remove.js"
   },
   "keywords": ["git", "node", "javascript"],
   "author": "Andrew Maksimchuk",

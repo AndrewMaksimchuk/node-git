@@ -7,16 +7,23 @@
 
 
 ### Usage:  
-`npm run start`
-`npm run start "Fix: Crash telephone field" dev`
-`npm run test`
-`npm run test "Fix: Crash telephone field" dev`
-`NODE_GIT_TEST=true ./node-git.js`
-`./node-git.js`
-`./node-git.js "Fix: Crash telephone field" dev`
+`npm run start`  
+`npm run start "Fix: Crash telephone field" dev`  
+`npm run test`  
+`npm run test "Fix: Crash telephone field" dev`  
+`./node-git.js`  
+`./node-git.js "Fix: Crash telephone field" dev`  
+`NODE_GIT_TEST=true ./node-git.js`  
+`node-git`  
+`node-git "Fix: Crash telephone field" dev`  
 
 
 ### NPM scripts  
-start - Run commands with default behavior or with arguments.   
-executeble - Make file "node-git.js" exacutable.   
-test - Test default behavior or with arguments.   
+`start` - Run commands with default behavior or with arguments.   
+`executeble` - Make file "node-git.js" exacutable.   
+`test` - Test default behavior or with arguments.   
+
+
+### Notes
+Default branch: "main"  
+Default commit message: "Init project"
