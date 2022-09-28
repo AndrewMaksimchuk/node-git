@@ -5,9 +5,9 @@
   "main": "node-git.js",
   "type": "module",
   "scripts": {
-    "start": "node ./node-git.js",
+    "start": "node ./node-git.js $1 $2",
     "executeble": "chmod +x ./node-git.js",
-    "test": "NODE_GIT_TEST=true node ./node-git.js"
+    "test": "NODE_GIT_TEST=true node ./node-git.js $1 $2"
   },
   "keywords": ["git", "node", "javascript"],
   "author": "Andrew Maksimchuk",
