@@ -1,0 +1,15 @@
+{
+  "name": "node-git",
+  "version": "1.0.0",
+  "description": "Combine git commands in one",
+  "main": "node-git.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./node-git.js",
+    "executeble": "chmod +x ./node-git.js",
+    "test": "NODE_GIT_TEST=true node ./node-git.js"
+  },
+  "keywords": ["git", "node", "javascript"],
+  "author": "Andrew Maksimchuk",
+  "license": "MIT"
+}
